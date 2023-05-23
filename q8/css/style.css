@@ -2,20 +2,17 @@
 
 .img {
   height: 500px;
-  background-image: url(../image/coffee-background.jpg);
+  background: url(../image/coffee-background.jpg);
 }
 
 .rpt {
-  background-repeat: no-repeat;
+  background: url(../image/coffee-background.jpg) no-repeat;
 }
 
 .cover {
-  background-size: cover;
-  background-position: center;
+  background: url(../image/coffee-background.jpg) no-repeat center/cover;
 }
 
 .contain {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../image/coffee-background.jpg) no-repeat center/contain;  
 }
