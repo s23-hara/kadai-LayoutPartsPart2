@@ -11,23 +11,21 @@
   padding: 20px;
 }
 
-.text:before {
+.text:before,.text:after {
   content: "";
   position: absolute;
   border: 20px solid transparent;
-  border-top: 20px solid #fad296;
-  top: 99%;
   left: 30px;
+}
+
+.text:before {
+  border-top: 20px solid #fad296;
+  top: 96%;
   z-index: 2;
 }
 
 .text:after {
-  content: "";
-  position: absolute;
-  border: 25px solid transparent;
-  border-top: 25px solid #8f5a0a;
+  border-top: 20px solid #8f5a0a;
   top: 100%;
-  left: 25px;
-  bottom: -10px;
   z-index: 1;
 }
